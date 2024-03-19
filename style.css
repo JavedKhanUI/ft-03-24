@@ -16,14 +16,40 @@ body {
         background: #0196a9;
         border: #0196a9;
     }
-  
+  .review-info ul li.stars {
+      color: #FFA500;
+      position: relative;
+  }
+  .star-icon:first-child {
+      margin-left: 0;
+  }
+  .star-icon {
+      color: #ddd;
+      font-size: 1em;
+      position: relative;
+  }
+  .stars-full:before {
+      color: #FFA500;
+      content: '\2605';
+      position: absolute;
+      left: 0;
+      top: 2px;
+  }
+  .stars-half:before {
+    color: #FFA500;
+    content: '\2605';
+    position: absolute;
+    left: 0;
+    width: 51%;
+    overflow: hidden;
+  }
   .masthead {
-    padding-top: 4.5rem;
-    padding-bottom: 4rem;
+    padding-top: 6.5rem;
+    padding-bottom: 4.5rem;
     text-align: center;
     color: #fff;
     /* background-image: url("assets/pre-education.jpg"); */
-    background:linear-gradient(to bottom, rgb(0 0 0 / 80%) 0%, rgb(0 0 0 / 18%) 100%), url("assets/pre-education.jpg");
+    background:linear-gradient(to bottom, rgb(0 0 0 / 44%) 0%, rgb(0 0 0 / 18%) 100%), url("assets/pre-education.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -38,7 +64,7 @@ body {
   .masthead .masthead-heading {
     font-size: 2rem;
     font-weight: 700;
-    line-height: 1.25rem;
+    line-height: 2.5rem;
     margin-bottom: 2rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
