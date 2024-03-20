@@ -74,7 +74,7 @@
        <div class="row row-cols-2 row-cols-md-4 g-3">
         <div class="col">
           <div class="card h-100">
-            <video src="https://www.footprintseducation.in/assets/images/admission-img/real-time-updates.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid"></video>
+            <video id="myVideo" src="https://www.footprintseducation.in/assets/images/admission-img/real-time-updates.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid"></video>
             <div class="card-body">
               <h3 class="card-title fs-6 fw-semibold">Real Time Mobile Updates</h3>
             </div>
@@ -82,7 +82,7 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <video src="https://www.footprintseducation.in/assets/images/admission-img/food-2.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid"></video>
+            <video id="myVideo" src="https://www.footprintseducation.in/assets/images/admission-img/food-2.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid"></video>
             <div class="card-body">
               <h3 class="card-title fs-6 fw-semibold">100% Nutritious Food</h3>
             </div>
@@ -90,7 +90,7 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <video src="https://www.footprintseducation.in/assets/images/admission-img/cctv-new.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid"></video>
+            <video id="myVideo" src="https://www.footprintseducation.in/assets/images/admission-img/cctv-new.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid"></video>
             <div class="card-body">
               <h3 class="card-title fs-6 fw-semibold">Watch Live CCTV Footage</h3>
             </div>
@@ -98,7 +98,7 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <video src="https://www.footprintseducation.in/assets/images/admission-img/Learning.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid"></video>
+            <video id="myVideo" src="https://www.footprintseducation.in/assets/images/admission-img/Learning.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid"></video>
             <div class="card-body">
               <h3 class="card-title fs-6 fw-semibold">Tons Of Activities For All Ages</h3>
             </div>
@@ -106,7 +106,7 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <video src="https://www.footprintseducation.in/assets/images/admission-img/so.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid mb-2"></video>
+            <video id="myVideo" src="https://www.footprintseducation.in/assets/images/admission-img/so.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid mb-2"></video>
             <div class="card-body">
               <h3 class="card-title fs-6 fw-semibold">Full Attention To Your Child</h3>
             </div>
@@ -114,7 +114,7 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <video src="https://www.footprintseducation.in/assets/images/admission-img/hsc.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid mb-2"></video>
+            <video id="myVideo" src="https://www.footprintseducation.in/assets/images/admission-img/hsc.mp4?v=01102020" autoplay muted playsinline loop class="img-fluid mb-2"></video>
             <div class="card-body">
               <h3 class="card-title fs-6 fw-semibold">High Scope Curriculum</h3>
             </div>
@@ -296,6 +296,11 @@
     </div>
   </section>
 <!--  -->
-
+<script>
+    var video = document.getElementById('myVideo');
+      setTimeout(function() {
+        video.play();
+      }, 2000); // Adjust the delay (in milliseconds) as needed
+</script>
     </body>
 </html>
