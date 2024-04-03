@@ -68,6 +68,10 @@ body {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
+  .tns-item {
+    width: calc(5%);
+    padding-right: 80px;
+}
 
    /* X-Small devices (portrait phones, less than 576px)
    No media query for `xs` since this is the default in Bootstrap */
