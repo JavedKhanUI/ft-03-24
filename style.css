@@ -9,9 +9,17 @@ body {
   }
   
   .btn-primary {
-        background: #fc6500;
-        border: #fc6500;
+      background-color: #fc6500;
+      border-color: #fc6500;
     }
+    .btn-primary:hover, .btn-primary:active{
+      background-color: #ec5f01;
+      border-color: #ec5f01;
+    }
+    .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+      background-color:#ec5f01;
+      border-color: #ec5f01;
+  }
     .btn-secondary{
         background: #0196a9;
         border: #0196a9;
