@@ -101,6 +101,14 @@ body {
     width: calc(5%);
 }
 
+.join-us {
+  font-size: 2em;
+  font-weight: 700;
+  color: #717171;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
    /* X-Small devices (portrait phones, less than 576px)
    No media query for `xs` since this is the default in Bootstrap */
   
