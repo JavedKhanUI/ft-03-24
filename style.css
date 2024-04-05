@@ -108,7 +108,9 @@ body {
   .tns-item {
     width: calc(5%);
 }
-
+.tns-item .container {
+  margin-bottom: 14px;
+}
 .join-us {
   font-size: 2em;
   font-weight: 700;
