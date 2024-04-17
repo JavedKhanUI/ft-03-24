@@ -141,8 +141,8 @@ body {
   @media (min-width: 768px) { 
     .masthead {
       padding-top: 6.5rem;
-      padding-bottom: 4.5rem;
-      background:linear-gradient(to bottom, rgb(0 0 0 / 44%) 0%, rgb(0 0 0 / 18%) 100%), url("assets/main-img-d.jpg");
+      padding-bottom: 15.5rem;
+      background:linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-d.jpg");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -180,8 +180,12 @@ body {
   @media (min-width: 1200px) { 
     .masthead {
       padding-top: 6.5rem;
-      padding-bottom: 4.5rem;
-      background:linear-gradient(to bottom, rgb(0 0 0 / 44%) 0%, rgb(0 0 0 / 18%) 100%), url("assets/main-img-d.jpg");
+      padding-bottom: 15.5rem;
+      background:linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-d.jpg");
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
     }
    }
   
