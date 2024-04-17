@@ -155,11 +155,22 @@ body {
       margin-bottom: 2rem;
     }
     .masthead .masthead-heading {
-      font-size: 4.5rem;
+      font-size: 2.5rem;
       font-weight: 700;
-      line-height: 6.5rem;
+      line-height: 3.5rem;
       margin-bottom: 2rem;
-    }    
+    }  
+    .masthead.hero-img{
+      background:linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-d.jpg");
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+    }  
+    .masthead.hero-img .container {
+      margin-bottom: 7rem;
+  }
+
    }
   
    /* Large devices (desktops, 992px and up) */
