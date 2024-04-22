@@ -77,8 +77,8 @@ body {
     padding-top: 3.5rem;
     padding-bottom: 17.5rem;
     text-align: center;
-    color: #56509f;
-    background:linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-m.jpg");
+    color: #fff;
+    background:linear-gradient(to bottom, rgb(0 0 0 / 60%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/top-bg-m.jpeg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -99,7 +99,7 @@ body {
   }
 
   .masthead.hero-img{
-    background:linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-min.jpg");
+    background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-min.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -132,7 +132,7 @@ body {
     .masthead {
       padding-top: 17rem;
       padding-bottom: 12.5rem;
-      background:linear-gradient(to bottom, rgb(0 0 0 / 44%) 0%, rgb(0 0 0 / 18%) 100%), url("assets/main-img-m.jpg");
+      background:linear-gradient(to bottom, rgb(0 0 0 / 44%) 0%, rgb(0 0 0 / 18%) 100%), url("assets/top-bg-m.jpeg");
     }
 
    }
@@ -142,7 +142,7 @@ body {
     .masthead {
       padding-top: 6.5rem;
       padding-bottom: 15.5rem;
-      background:linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-d.jpg");
+      background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/top-bg-d.jpg");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -161,7 +161,7 @@ body {
       margin-bottom: 2rem;
     }  
     .masthead.hero-img{
-      background:linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-d.jpg");
+      background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/top-bg-d.jpg");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -181,7 +181,7 @@ body {
     .masthead {
       padding-top: 6.5rem;
       padding-bottom: 15.5rem;
-      background:linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-d.jpg");
+      background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/top-bg-d.jpg");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -194,14 +194,14 @@ body {
     .masthead {
       padding-top: 6.5rem;
       padding-bottom: 15.5rem;
-      background:linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-d.jpg");
+      background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/top-bg-d.jpg");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
       background-size: cover;
     }
     .masthead.hero-img{
-      background:linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-d.jpg");
+      background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/top-bg-d.jpg");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
