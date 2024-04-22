@@ -99,7 +99,7 @@ body {
   }
 
   .masthead.hero-img{
-    background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/main-img-min.jpg");
+    background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/top-bg-m.jpeg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
