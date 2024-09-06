@@ -164,47 +164,6 @@
 </section>
 <!--  -->
 <!--  -->
-<section class="py-lg-4">
-  <div class="container">
-      <h3 class="title-text mb-4 text-center">Safety First</h3>
-     <div class="row row-cols-2 row-cols-md-4 g-3">
-      <div class="col">
-        <div class="card h-100">
-          <img src="assets/Flooring-and-furniture.jpg" class="icon-img-top" alt="Flooring and furniture">
-          <div class="card-body px-2">
-            <h3 class="card-title fs-6 fw-semibold">Childproofed Flooring and furniture</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="assets/Checked-Staff.jpg" class="icon-img-top" alt="Background Checked Staff">
-          <div class="card-body px-2">
-            <h3 class="card-title fs-6 fw-semibold">Background Checked Staff</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="assets/all-staff.jpg" class="icon-img-top" alt="All Women Staff">
-          <div class="card-body px-2">
-            <h3 class="card-title fs-6 fw-semibold">All Women Staff</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-          <div class="card h-100">
-            <img src="assets/No-entry.jpg" class="icon-img-top" alt="No-Entry">
-            <div class="card-body px-2">
-              <h3 class="card-title fs-6 fw-semibold">OTP Verified Visits</h3>
-            </div>
-          </div>
-        </div>
-     </div>
-  </div>
-</section>
-<!--  -->
-<!--  -->
 <section class="py-lg-4 corporate-section">
   <div class="container">
       <!--  -->
@@ -282,6 +241,59 @@
           </div>
         </div>    
       <!--  -->
+  </div>
+</section>
+<!--  -->
+<section class="bg-light py-lg-5 text-center what-we">
+  <div class="container">
+      <h2 class="title-text mb-4 text-center">What we offer</h2>
+     <div class="row row-cols-2 row-cols-md-3 g-3 justify-content-center">
+      <div class="col">
+        <div class="card border-0 shadow h-100">
+          <img src="assets/earning.svg" class="icon-img mt-3 m-auto" alt="Live CCTV Streaming" width="80px" height="80px">
+          <div class="card-body px-2">
+            <h3 class="card-title main-title">Instant Mobile Updates</h3>
+            <p class="main-para">Get updates on your mobile of what, when and how much your child ate, slept & played.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 shadow h-100">
+          <img src="assets/salary.svg" class="icon-img mt-3 m-auto" alt="Child Ratio" width="80px" height="80px">
+          <div class="card-body px-2">
+            <h3 class="card-title main-title">Live CCTV Streaming</h3>
+            <p class="main-para">Watching your child from anywhere anytime having fun in. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 shadow h-100">
+          <img src="assets/bag.svg" class="icon-img mt-3 m-auto" alt="Age Group" width="80px" height="80px">
+          <div class="card-body px-2">
+            <h3 class="card-title main-title">Nutritious Food, 0% Junk</h3>
+            <p class="main-para">100% Nutrition! 0% Junk, exactly the food they need! and only the food they need!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 shadow h-100">
+          <img src="assets/money-back-guarantee.svg" class="icon-img mt-3 m-auto" alt="Live CCTV Streaming" width="80px" height="80px">
+          <div class="card-body px-2">
+            <h3 class="card-title main-title">Infrastructure Designed For Child Safety</h3>
+            <p class="main-para">Background checked all-female staff, Child safe flooring.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 shadow h-100">
+          <img src="assets/customer-service.svg" class="icon-img mt-3 m-auto" alt="Child Ratio" width="80px" height="80px">
+          <div class="card-body px-2">
+            <h3 class="card-title main-title">Safety-focused Infrastructure</h3>
+            <p class="main-para">Our Classrooms and playgrounds are designed with safety in minds.</p>
+          </div>
+        </div>
+      </div>
+     </div>
   </div>
 </section>
 <!--  -->
@@ -448,8 +460,8 @@
         </div>
         <!--  -->
     </div>
-  </section>
-  
+</section>
+<!--  -->
 <!--  -->
 <section class="bg-light py-lg-4 media-section">
     <div class="container">
@@ -457,6 +469,13 @@
             <div class="col-md-12 text-center mx-auto">
                 <h3 class="title-text mb-4 text-center">Media Coverage</h3>
             </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="card card-body px-2 shadow">
+                <div class="youtube-iframe-wrapper" data-id="LqputPKqyXY?si=q6h7ZmNiW70-I7Ih"></div>
+            </div>
+          </div>
         </div>
         <div class="row justify-content-center my-4">
             <div class="col-12">
@@ -612,6 +631,35 @@
     }, false)
   })
 })()
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  const videoWrappers = document.querySelectorAll(".youtube-iframe-wrapper");
+
+  const lazyLoadVideo = (wrapper) => {
+    const videoId = wrapper.getAttribute("data-id");
+    const iframe = document.createElement("iframe");
+    iframe.setAttribute("src", `https://www.youtube.com/embed/${videoId}?autoplay=1`);
+    iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("allowfullscreen", "");
+    iframe.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+    wrapper.appendChild(iframe);
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        lazyLoadVideo(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+
+  videoWrappers.forEach(wrapper => {
+    observer.observe(wrapper);
+  });
+});
+
 </script>
 
     </body>

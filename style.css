@@ -201,6 +201,11 @@ body {
   background-size: contain;
 }
 
+.youtube-iframe-wrapper iframe {
+  width: 100%;
+  height: 534px;
+}
+
    /* X-Small devices (portrait phones, less than 576px)
    No media query for `xs` since this is the default in Bootstrap */
   
