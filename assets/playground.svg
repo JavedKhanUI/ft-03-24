@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 64 64">
+  <g data-name="Color copy">
+    <path fill="#f9d423" d="M5 13a2 2 0 0 1 2 2v46H3V15a2 2 0 0 1 2-2zm26 0a2 2 0 0 1 2 2v41.636h-4V15a2 2 0 0 1 2-2z" data-original="#f9d423"/>
+    <path fill="#f9b53d" d="M7 17h22v4H7zm26 9v30.64h-4V15a2.006 2.006 0 0 1 2-2v11a2.006 2.006 0 0 0 2 2zM7 48v13H3V15a2.006 2.006 0 0 1 2-2v33a2.006 2.006 0 0 0 2 2z" data-original="#f9b53d"/>
+    <path fill="#fc913a" d="M27 17a2.006 2.006 0 0 1-2 2h-2v-2h-2v2h-8v-2h-2v2a2.006 2.006 0 0 1-2-2H7v4h22v-4z" data-original="#fc913a"/>
+    <path fill="#a3daff" d="M13 50a1 1 0 0 1-1-1V17a1 1 0 0 1 2 0v32a1 1 0 0 1-1 1zm10 0a1 1 0 0 1-1-1V17a1 1 0 0 1 2 0v32a1 1 0 0 1-1 1z" data-original="#a3daff"/>
+    <path fill="#1ec0ff" d="M11 49h14v4H11z" data-original="#1ec0ff"/>
+    <path fill="#299cfc" d="M25 49v4H11v-2h.1a6.976 6.976 0 0 0 4.89-2z" data-original="#299cfc"/>
+    <path fill="#ff8b7b" d="M47 3a6.151 6.151 0 0 0-3.617 1.176L34 11h26l-9.383-6.824A6.151 6.151 0 0 0 47 3zM33 33v28h28V33zm14 24a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" data-original="#ff8b7b"/>
+    <path fill="#c5e99b" d="M14 61H3v-4h9.908l17.41-27.081A2 2 0 0 1 32 29h5v4h-3.908l-17.41 27.081A2 2 0 0 1 14 61z" data-original="#c5e99b"/>
+    <path fill="#a8d38c" d="M37 29v4h-3.91L15.68 60.08A2.006 2.006 0 0 1 14 61H3v-4h3a2.006 2.006 0 0 0 2 2h5.91l17.41-27.08A2.006 2.006 0 0 1 33 31a2.006 2.006 0 0 0 2-2z" data-original="#a8d38c"/>
+    <path fill="#a3daff" d="M37 11v22h5v-9a5 5 0 0 1 10 0v9h5V11z" data-original="#a3daff"/>
+    <path fill="#ff6464" d="M57 53V40a3 3 0 0 0-3-3H42a4 4 0 0 1-4-4h-5v28h28v-4a4 4 0 0 1-4-4zm-10 4a8 8 0 1 1 8-8 8 8 0 0 1-8 8z" data-original="#ff6464"/>
+    <path fill="#1ec0ff" d="M54 16v11a3 3 0 0 0 3 3v3h-5v-9a5 5 0 0 0-5-5 4.712 4.712 0 0 0-1 .1V19a7 7 0 0 0-7 7v1a3 3 0 0 0 3 3v3h-5V11h20v3h-1a2.006 2.006 0 0 0-2 2z" data-original="#1ec0ff"/>
+    <path fill="#ff6464" d="M60 11H34l8.33-6.05A6 6 0 0 0 48 9h9.25z" data-original="#ff6464"/>
+    <g fill="#f9d423">
+      <circle cx="53" cy="15" r="1" data-original="#f9d423"/>
+      <circle cx="57" cy="37" r="1" data-original="#f9d423"/>
+      <circle cx="41" cy="15" r="1" data-original="#f9d423"/>
+    </g>
+    <circle cx="37" cy="37" r="1" fill="#f9b53d" data-original="#f9b53d"/>
+    <circle cx="57" cy="57" r="1" fill="#f9b53d" data-original="#f9b53d"/>
+    <circle cx="37" cy="57" r="1" fill="#f9b53d" data-original="#f9b53d"/>
+    <path fill="#1ec0ff" d="M47 58a9 9 0 1 1 9-9 9.01 9.01 0 0 1-9 9zm0-16a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7z" data-original="#1ec0ff"/>
+    <path fill="#f9d423" d="M53 33h-2v-9a4 4 0 0 0-8 0v9h-2v-9a6 6 0 0 1 12 0z" data-original="#f9d423"/>
+  </g>
+</svg>
