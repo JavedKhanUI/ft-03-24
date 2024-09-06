@@ -144,7 +144,7 @@ body {
 }
 
   .masthead.hero-img{
-    background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/top-bg-m.jpeg");
+    background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/Full-Attention.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -243,7 +243,7 @@ body {
       margin-bottom: 2rem;
     }  
     .masthead.hero-img{
-      background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/top-bg-d.jpg");
+      background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/Full-Attention.jpg");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -259,7 +259,7 @@ body {
     .masthead {
       padding-top: 6.5rem;
       padding-bottom: 15.5rem;
-      background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/top-bg-d.jpg");
+      background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/Full-Attention.jpg");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -279,7 +279,7 @@ body {
       background-size: cover;
     }
     .masthead.hero-img{
-      background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/top-bg-d.jpg");
+      background:linear-gradient(to bottom, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 100%), url("assets/Full-Attention.jpg");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -306,7 +306,8 @@ body {
   .masthead .masthead-heading { font-size: 1.6rem;}
   .masthead p {font-size: 20px;}
   .highscope-title h3 {font-size: 1.4rem;}
-  .youtube-iframe-wrapper iframe { height: 198px;}
+  .youtube-iframe-wrapper iframe { height: 198px;
+}
 }
 
  /* `md` applies to small devices (landscape phones, less than 768px) */
