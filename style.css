@@ -2,6 +2,13 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+.text-bg-primary {
+  background-color: rgb(32 193 224) !important;
+}
+.border-primary {
+  border-color: rgb(32 193 224)!important;
+}
+
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -149,7 +156,11 @@ body {
   }
   .tns-item .container {
     margin-bottom: 14px;
-  }
+    text-align: center;
+    box-shadow: var(--bs-box-shadow)!important;
+    padding: 18px 0;
+    border-radius: 10px;
+}
   .join-us {
     font-size:2.4em;
     font-weight: 700;
@@ -160,6 +171,34 @@ body {
 
   .accordion-item:nth-child(even) .accordion-header .accordion-button {
     background: #efefef;
+}
+
+.highscope-logo-title p, .highscope-logo-title  h3 {
+  color: #717171;
+}
+.highscope-title h3 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #4c4c4c;
+}
+.highscope-list .card ul li {
+  list-style: none; /* Remove default list styling */
+  position: relative; /* To position the icon */
+  padding-left: 30px; /* Adjust space for the icon */
+  line-height: 35px;
+}
+
+.highscope-list .card ul li::before {
+  content: url(assets/right.svg); /* Use the image as content */
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background-size: contain;
 }
 
    /* X-Small devices (portrait phones, less than 576px)
