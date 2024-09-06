@@ -299,6 +299,14 @@ body {
   .main-para{
     font-size: 15px;
   }
+  .masthead {padding-bottom: 3.5rem;}
+  .navbar-brand {font-size: 19px;}
+  .navbar-brand img { width: 150px;}
+  .hero-block {gap: 1rem;}
+  .masthead .masthead-heading { font-size: 1.6rem;}
+  .masthead p {font-size: 20px;}
+  .highscope-title h3 {font-size: 1.4rem;}
+  .youtube-iframe-wrapper iframe { height: 198px;}
 }
 
  /* `md` applies to small devices (landscape phones, less than 768px) */
