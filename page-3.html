@@ -56,62 +56,76 @@
 </header>  
 
 <!--  -->
-<section class="masthead hero-img">
+<!-- Masthead Section -->
+<section class="hero-bg">
+  <!--  -->
+    <picture>
+      <!-- Image for small screens -->
+      <source media="(max-width: 576px)" srcset="assets/d-img.jpeg">
+      <!-- Image for medium screens -->
+      <source media="(max-width: 768px)" srcset="assets/d-img.jpeg">
+      <!-- Image for large screens -->
+      <source media="(max-width: 1200px)" srcset="assets/desktop-img.jpeg">
+      <!-- Default fallback image -->
+      <img src="assets/desktop-img.jpeg" class="img-fluid" alt="Responsive image">
+    </picture>
     <div class="container">
+      <!--  -->
         <div class="hero-block">
-            <div class="hero-title">
-                <h1 class="masthead-heading mb-lg-2 mb-1">Bring the best childcare to your workplace</h1>
-                <p class="mb-0">Once a footprint daycare in your office, We provide everything, from setup to daily operations.</p>
-            </div>
-            <div class="hero-form">
-                <div class="form-title">GET IN TOUCH</div>
-                <p>Please Fill This Form to Request a Call Back</p>
-                <form action="" class="needs-validation" novalidate>
-                    <div class="row g-2">
-                        <!--  -->
-                        <div class="col-md">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="hero-full-name" placeholder="Full Name" required>
-                                <label for="hero-full-name">Full Name</label>
-                                <!--  -->
-                                <div class="invalid-tooltip">
-                                    Please Enter Full Name
-                                </div>
-                                <!--  -->
-                            </div>
-                        </div>
-                        <!--  -->
-                        <div class="col-md">
-                            <div class="form-floating">
-                                <input type="email" class="form-control" id="hero-email" placeholder="name@domain.com" required>
-                                <label for="hero-email">Email address</label>
-                                <!--  -->
-                                <div class="invalid-tooltip">
-                                    Please Enter Correct Email ID
-                                </div>
-                                <!--  -->
-                            </div>
-                        </div>
-                        <!--  -->
-                        <div class="col-md">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="hero-phone" placeholder="Phone Number" required>
-                                <label for="hero-phone">Phone Number</label>
-                                <!--  -->
-                                <div class="invalid-tooltip">
-                                    Please Enter Correct Phone Number
-                                </div>
-                                <!--  -->
-                            </div>
-                        </div>
-                        <!--  -->
-                        <div class="col-12">
-                            <button class="btn btn-lg btn-primary mt-lg-4 px-lg-5" data-bs-toggle="modal" data-bs-target="#heroModal" type="submit">Submit form</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+          <div class="hero-title">
+              <h1 class="masthead-heading mb-lg-2 mb-1 text-white">Bring the best childcare to your workplace</h1>
+              <p class="mb-0 text-white">Once a footprint daycare in your office, We provide everything, from setup to daily operations.</p>
+          </div>
+          <div class="hero-form">
+              <div class="form-title">GET IN TOUCH</div>
+              <p class="text-white">Please Fill This Form to Request a Call Back</p>
+              <form action="" class="needs-validation" novalidate>
+                  <div class="row g-2">
+                      <!--  -->
+                      <div class="col-md">
+                          <div class="form-floating">
+                              <input type="text" class="form-control" id="hero-full-name" placeholder="Full Name" required>
+                              <label for="hero-full-name">Full Name</label>
+                              <!--  -->
+                              <div class="invalid-tooltip">
+                                  Please Enter Full Name
+                              </div>
+                              <!--  -->
+                          </div>
+                      </div>
+                      <!--  -->
+                      <div class="col-md">
+                          <div class="form-floating">
+                              <input type="email" class="form-control" id="hero-email" placeholder="name@domain.com" required>
+                              <label for="hero-email">Email address</label>
+                              <!--  -->
+                              <div class="invalid-tooltip">
+                                  Please Enter Correct Email ID
+                              </div>
+                              <!--  -->
+                          </div>
+                      </div>
+                      <!--  -->
+                      <div class="col-md">
+                          <div class="form-floating">
+                              <input type="text" class="form-control" id="hero-phone" placeholder="Phone Number" required>
+                              <label for="hero-phone">Phone Number</label>
+                              <!--  -->
+                              <div class="invalid-tooltip">
+                                  Please Enter Correct Phone Number
+                              </div>
+                              <!--  -->
+                          </div>
+                      </div>
+                      <!--  -->
+                      <div class="d-grid gap-2 d-md-block">
+                          <button class="btn btn-lg btn-primary mt-lg-4 mt-sm-3 px-lg-5 px-sm-5" data-bs-toggle="modal" data-bs-target="#heroModal" type="submit">Submit</button>
+                      </div>
+                  </div>
+              </form>
+          </div>
         </div>
+      <!--  -->
     </div>
 </section>
 <!--  -->
@@ -145,7 +159,7 @@
       </div>
       <div class="col">
         <div class="card border-0 shadow h-100">
-          <img src="assets/img-4.svg" class="icon-img mt-3 m-auto" alt="Boost Morale" width="80px" height="80px">
+          <img src="assets/boost-moral.svg" class="icon-img mt-3 m-auto" alt="Boost Morale" width="80px" height="80px">
           <div class="card-body px-2">
             <h3 class="card-title main-title">Boost Morale</h3>
           </div>
@@ -588,7 +602,7 @@
 </section>
 <!--  -->
 
-<section class="footer mt-auto fixed-bottom">
+<section id="sticky-cta" class="footer sticky-bottom mt-auto fixed-bottom">
         <div class="d-flex">
             <a href="#" class="btn btn-primary py-3 flex-fill text-white fw-semibold rounded-0">Enquire Now</a>
             <a href="#" class="btn btn-secondary py-3 flex-fill text-white fw-semibold rounded-0">Call Us</a>
@@ -701,6 +715,20 @@
     observer.observe(wrapper);
   });
 });
+
+</script>
+
+<script>
+ window.onscroll = function() {
+    const stickyCTA = document.getElementById('sticky-cta');
+    
+    // Check scroll position
+    if (window.scrollY > 100) {
+        stickyCTA.classList.add('show');  // Show sticky footer
+    } else {
+        stickyCTA.classList.remove('show');  // Hide sticky footer
+    }
+};
 
 </script>
 
