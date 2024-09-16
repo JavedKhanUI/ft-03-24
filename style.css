@@ -242,7 +242,16 @@ body {
 .sticky-bottom.show {
   display: block; /* Visible when scrolled down */
 }
-
+.tns-nav {
+  text-align: center;
+}
+.tns-outer button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 3px;
+  border: 0;
+}
    /* X-Small devices (portrait phones, less than 576px)
    No media query for `xs` since this is the default in Bootstrap */
   
@@ -341,7 +350,7 @@ body {
   .navbar-brand img { width: 150px;}
   .hero-bg picture img {object-fit: cover;}
   .overlay-bg { height: 95vh;background: linear-gradient(to bottom, rgb(0 0 0 / 46%) 0%, rgb(0 0 0 / 0%) 100%);}
-  .hero-block {gap: 0rem;width: 90%;}
+  .hero-block {gap: 1rem;width: 90%;}
   .hero-title p {font-size: 1rem;}
   .masthead .masthead-heading { font-size: 1.6rem;}
   .masthead p {font-size: 20px;}
@@ -354,7 +363,7 @@ body {
 
  /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-  .hero-bg { height: 85vh;background: #35ace1;}
+  .hero-bg { height: 85vh;background: #35ace1; margin-top: 3.5rem;}
  }
 
  /* `xl` applies to large devices (desktops, less than 1200px) */
