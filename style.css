@@ -110,6 +110,11 @@ body {
     font-size: 15px;
     color: #76777b;
   }
+  .review-info li {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+}
 
   .review-info ul li.stars {
       color: #FFA500;
@@ -128,7 +133,7 @@ body {
       content: '\2605';
       position: absolute;
       left: 0;
-      top: 2px;
+      top: -5px;
   }
   .stars-half:before {
     color: #FFA500;
@@ -137,8 +142,9 @@ body {
     left: 0;
     width: 51%;
     overflow: hidden;
-    top: 2px;
+    top: -5px;
   }
+  
   .masthead {
     padding-top: 3.5rem;
     padding-bottom: 17.5rem;
@@ -252,6 +258,7 @@ body {
   margin: 0 3px;
   border: 0;
 }
+
    /* X-Small devices (portrait phones, less than 576px)
    No media query for `xs` since this is the default in Bootstrap */
   
@@ -356,6 +363,7 @@ body {
   .masthead p {font-size: 20px;}
   .highscope-title h3 {font-size: 1.4rem;}
   .youtube-iframe-wrapper iframe { height: 198px;}
+  .review-info li { font-size: 1.2rem;}
 }
 
  /* `md` applies to small devices (landscape phones, less than 768px) */
