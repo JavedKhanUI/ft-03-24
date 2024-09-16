@@ -340,8 +340,8 @@ body {
   .navbar-brand {font-size: 19px;}
   .navbar-brand img { width: 150px;}
   .hero-bg picture img {object-fit: cover;}
-  .overlay-bg { height: 85vh;background: linear-gradient(to bottom, rgb(0 0 0 / 46%) 0%, rgb(0 0 0 / 0%) 100%);}
-  .hero-block {gap: 2rem;width: 90%;}
+  .overlay-bg { height: 95vh;background: linear-gradient(to bottom, rgb(0 0 0 / 46%) 0%, rgb(0 0 0 / 0%) 100%);}
+  .hero-block {gap: 0rem;width: 90%;}
   .hero-title p {font-size: 1rem;}
   .masthead .masthead-heading { font-size: 1.6rem;}
   .masthead p {font-size: 20px;}
