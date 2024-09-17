@@ -10,7 +10,7 @@
 }
 
 body {
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-bottom: 3rem;
     color: rgb(var(--bs-tertiary-color-rgb));
   }
@@ -354,7 +354,6 @@ body {
   }
   .masthead {padding-bottom: 3.5rem;}
   .navbar-brand {font-size: 19px;}
-  .navbar-brand img { width: 150px;}
   .hero-bg picture img {object-fit: cover;}
   .overlay-bg { height: 95vh;background: linear-gradient(to bottom, rgb(0 0 0 / 46%) 0%, rgb(0 0 0 / 0%) 100%);}
   .hero-block {gap: 1rem;width: 90%;}
@@ -371,7 +370,7 @@ body {
 
  /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-  .hero-bg { height: 85vh;background: #35ace1; margin-top: 3.5rem;}
+  .hero-bg { height: 85vh;background: #35ace1;}
  }
 
  /* `xl` applies to large devices (desktops, less than 1200px) */
