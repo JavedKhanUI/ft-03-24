@@ -370,7 +370,7 @@ body {
 
  /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-  .hero-bg { height: 85vh;background: #35ace1;}
+  .hero-bg { height: 114vh;background: #35ace1;}
  }
 
  /* `xl` applies to large devices (desktops, less than 1200px) */
