@@ -74,6 +74,9 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.curriculum-title {
+  font-size: 2.5rem;
+}
   .btn-primary {
       background-color: #fc6500;
       border-color: #fc6500;
@@ -351,6 +354,9 @@ body {
   }
   .main-para{
     font-size: 15px;
+  }
+  .curriculum-title {
+    font-size: 2rem;
   }
   .masthead {padding-bottom: 3.5rem;}
   .navbar-brand {font-size: 19px;}
