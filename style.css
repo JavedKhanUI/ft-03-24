@@ -76,6 +76,7 @@ body {
 }
 .curriculum-title {
   font-size: 2.5rem;
+  font-weight: 600;
 }
   .btn-primary {
       background-color: #fc6500;
@@ -358,10 +359,17 @@ body {
   .curriculum-title {
     font-size: 2rem;
   }
+  .hero-form .form-title {
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+}
+  .hero-form p {
+    font-size: 15px;
+  }
   .masthead {padding-bottom: 3.5rem;}
   .navbar-brand {font-size: 19px;}
-  .hero-bg picture img {object-fit: cover;}
-  .overlay-bg { height: 95vh;background: linear-gradient(to bottom, rgb(0 0 0 / 46%) 0%, rgb(0 0 0 / 0%) 100%);}
+  .hero-bg picture img {object-fit: cover;object-position: 30%;}
+  .overlay-bg { height: 95vh;background: linear-gradient(to bottom, rgb(0 0 0 / 65%) 0%, rgb(0 0 0 / 0%) 100%);}
   .hero-block {gap: 1rem;width: 90%;}
   .hero-title p {font-size: 1rem;}
   .masthead .masthead-heading { font-size: 1.6rem;}
